@@ -1,0 +1,35 @@
+[33mWARNING[0m:  [08-03-2025 00:13:33] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+[32mINFO[0m:     [08-03-2025 00:13:34] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [08-03-2025 00:13:34] Starting component System
+[36mDEBUG[0m:    [08-03-2025 00:13:34] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [08-03-2025 00:13:34] Starting component SqliteDB
+[36mDEBUG[0m:    [08-03-2025 00:13:34] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [08-03-2025 00:13:34] Starting component Posthog
+[36mDEBUG[0m:    [08-03-2025 00:13:34] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [08-03-2025 00:13:34] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [08-03-2025 00:13:34] Starting component LocalExecutor
+[36mDEBUG[0m:    [08-03-2025 00:13:34] Starting component SegmentAPI
+[36mDEBUG[0m:    [08-03-2025 00:13:34] Starting component SimpleAsyncRateLimitEnforcer
+[32mINFO[0m:     [08-03-2025 00:13:34] Started server process [[36m13162[0m]
+[32mINFO[0m:     [08-03-2025 00:13:34] Waiting for application startup.
+[32mINFO[0m:     [08-03-2025 00:13:34] Application startup complete.
+[32mINFO[0m:     [08-03-2025 00:13:34] Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [08-03-2025 00:38:26] 127.0.0.1:55042 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [08-03-2025 00:38:26] 127.0.0.1:55044 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [08-03-2025 00:38:26] 127.0.0.1:55042 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [08-03-2025 00:38:37] 127.0.0.1:55051 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [08-03-2025 00:38:37] 127.0.0.1:55053 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [08-03-2025 00:38:37] Collection news_memory already exists, returning existing collection.
+[32mINFO[0m:     [08-03-2025 00:38:37] 127.0.0.1:55051 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [08-03-2025 00:43:20] 127.0.0.1:55071 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [08-03-2025 00:43:20] 127.0.0.1:55073 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [08-03-2025 00:43:20] Collection news_memory already exists, returning existing collection.
+[32mINFO[0m:     [08-03-2025 00:43:20] 127.0.0.1:55071 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [08-03-2025 00:49:24] 127.0.0.1:55134 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [08-03-2025 00:49:24] 127.0.0.1:55136 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [08-03-2025 00:49:24] Collection news_memory already exists, returning existing collection.
+[32mINFO[0m:     [08-03-2025 00:49:24] 127.0.0.1:55134 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [08-03-2025 00:55:40] 127.0.0.1:55179 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [08-03-2025 00:55:40] 127.0.0.1:55181 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [08-03-2025 00:55:40] Collection news_memory already exists, returning existing collection.
+[32mINFO[0m:     [08-03-2025 00:55:40] 127.0.0.1:55179 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
